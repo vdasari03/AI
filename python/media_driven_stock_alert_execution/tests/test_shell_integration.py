@@ -1,12 +1,3 @@
-import os
-import sys
-
-# make sure the project root is on sys.path so modules are importable when
-# pytest changes the working directory during collection
-root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if root not in sys.path:
-    sys.path.insert(0, root)
-
 from shell_integration import detect_commands
 
 

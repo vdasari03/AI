@@ -1,0 +1,223 @@
+{
+  "total_assessments": 5,
+  "results": [
+    {
+      "image_id": "car_damage_1",
+      "image_path": "tests/fixtures/images/car_damage_1.jpg",
+      "timestamp": "2026-03-03T00:38:16.640340",
+      "damages": [
+        {
+          "location": "door_panel",
+          "severity": "severe",
+          "estimated_size_inches": 4.0,
+          "description": "Deep dent on driver-side door with paint damage",
+          "repair_type": "replaceable",
+          "repair_complexity": "high"
+        }
+      ],
+      "cost_estimate": {
+        "labor_cost": 450.0,
+        "materials_cost": 450.0,
+        "paint_cost": 200.0,
+        "total_estimated_cost": 1100.0,
+        "confidence_level": 0.75
+      },
+      "insurance_claim": {
+        "claim_id": "8C6C3941",
+        "claim_type": "damage",
+        "is_covered": true,
+        "deductible": 500.0,
+        "coverage_percentage": 0.8,
+        "estimated_payout": 480.0,
+        "notes": "Damage locations: door_panel | Labor: $450.00, Materials: $450.00, Paint: $200.00 | Component replacement recommended."
+      },
+      "summary": "Assessment identified 1 damage(s). Estimated repair cost: $1100.00. Estimated insurance payout: $480.00. Claim status: Approved.",
+      "metadata": {
+        "size": [
+          800,
+          600
+        ],
+        "width": 800,
+        "height": 600,
+        "format": "JPEG",
+        "mode": "RGB"
+      }
+    },
+    {
+      "image_id": "car_damage_2",
+      "image_path": "tests/fixtures/images/car_damage_2.jpg",
+      "timestamp": "2026-03-03T00:38:16.648535",
+      "damages": [
+        {
+          "location": "rear_fender",
+          "severity": "minor",
+          "estimated_size_inches": 0.75,
+          "description": "Small ding on rear fender",
+          "repair_type": "repairable",
+          "repair_complexity": "simple"
+        }
+      ],
+      "cost_estimate": {
+        "labor_cost": 75.0,
+        "materials_cost": 50.0,
+        "paint_cost": 0.0,
+        "total_estimated_cost": 125.0,
+        "confidence_level": 0.85
+      },
+      "insurance_claim": {
+        "claim_id": "18699058",
+        "claim_type": "minor_damage",
+        "is_covered": true,
+        "deductible": 500.0,
+        "coverage_percentage": 0.8,
+        "estimated_payout": 0.0,
+        "notes": "Damage locations: rear_fender | Labor: $75.00, Materials: $50.00, Paint: $0.00"
+      },
+      "summary": "Assessment identified 1 damage(s). Estimated repair cost: $125.00. Estimated insurance payout: $0.00. Claim status: Approved.",
+      "metadata": {
+        "size": [
+          800,
+          600
+        ],
+        "width": 800,
+        "height": 600,
+        "format": "JPEG",
+        "mode": "RGB"
+      }
+    },
+    {
+      "image_id": "car_damage_3",
+      "image_path": "tests/fixtures/images/car_damage_3.jpg",
+      "timestamp": "2026-03-03T00:38:16.653526",
+      "damages": [
+        {
+          "location": "hood",
+          "severity": "moderate",
+          "estimated_size_inches": 3.0,
+          "description": "Multiple dents on hood with paint cracking",
+          "repair_type": "repairable",
+          "repair_complexity": "medium"
+        }
+      ],
+      "cost_estimate": {
+        "labor_cost": 225.0,
+        "materials_cost": 150.0,
+        "paint_cost": 200.0,
+        "total_estimated_cost": 575.0,
+        "confidence_level": 0.85
+      },
+      "insurance_claim": {
+        "claim_id": "6E32C004",
+        "claim_type": "damage",
+        "is_covered": true,
+        "deductible": 500.0,
+        "coverage_percentage": 0.8,
+        "estimated_payout": 60.0,
+        "notes": "Damage locations: hood | Labor: $225.00, Materials: $150.00, Paint: $200.00"
+      },
+      "summary": "Assessment identified 1 damage(s). Estimated repair cost: $575.00. Estimated insurance payout: $60.00. Claim status: Approved.",
+      "metadata": {
+        "size": [
+          800,
+          600
+        ],
+        "width": 800,
+        "height": 600,
+        "format": "JPEG",
+        "mode": "RGB"
+      }
+    },
+    {
+      "image_id": "car_damage_4",
+      "image_path": "tests/fixtures/images/car_damage_4.jpg",
+      "timestamp": "2026-03-03T00:38:16.658212",
+      "damages": [
+        {
+          "location": "roof",
+          "severity": "severe",
+          "estimated_size_inches": 5.0,
+          "description": "Large dent on roof with structural concerns",
+          "repair_type": "total_loss",
+          "repair_complexity": "very_high"
+        }
+      ],
+      "cost_estimate": {
+        "labor_cost": 450.0,
+        "materials_cost": 350.0,
+        "paint_cost": 200.0,
+        "total_estimated_cost": 1000.0,
+        "confidence_level": 0.75
+      },
+      "insurance_claim": {
+        "claim_id": "8B8BE081",
+        "claim_type": "total_loss",
+        "is_covered": true,
+        "deductible": 500.0,
+        "coverage_percentage": 0.8,
+        "estimated_payout": 400.0,
+        "notes": "Damage locations: roof | Labor: $450.00, Materials: $350.00, Paint: $200.00"
+      },
+      "summary": "Assessment identified 1 damage(s). Estimated repair cost: $1000.00. Estimated insurance payout: $400.00. Claim status: Approved.",
+      "metadata": {
+        "size": [
+          800,
+          600
+        ],
+        "width": 800,
+        "height": 600,
+        "format": "JPEG",
+        "mode": "RGB"
+      }
+    },
+    {
+      "image_id": "car_damage_5",
+      "image_path": "tests/fixtures/images/car_damage_5.jpg",
+      "timestamp": "2026-03-03T00:38:16.664336",
+      "damages": [
+        {
+          "location": "front_bumper",
+          "severity": "moderate",
+          "estimated_size_inches": 2.5,
+          "description": "Moderate dent on front bumper with minor paint damage",
+          "repair_type": "repairable",
+          "repair_complexity": "medium"
+        }
+      ],
+      "cost_estimate": {
+        "labor_cost": 225.0,
+        "materials_cost": 150.0,
+        "paint_cost": 200.0,
+        "total_estimated_cost": 575.0,
+        "confidence_level": 0.85
+      },
+      "insurance_claim": {
+        "claim_id": "AAAF3F81",
+        "claim_type": "damage",
+        "is_covered": true,
+        "deductible": 500.0,
+        "coverage_percentage": 0.8,
+        "estimated_payout": 60.0,
+        "notes": "Damage locations: front_bumper | Labor: $225.00, Materials: $150.00, Paint: $200.00"
+      },
+      "summary": "Assessment identified 1 damage(s). Estimated repair cost: $575.00. Estimated insurance payout: $60.00. Claim status: Approved.",
+      "metadata": {
+        "size": [
+          800,
+          600
+        ],
+        "width": 800,
+        "height": 600,
+        "format": "JPEG",
+        "mode": "RGB"
+      }
+    }
+  ],
+  "summary": {
+    "total_cost": 3375.0,
+    "total_insurance_payout": 1000.0,
+    "average_confidence": 0.81,
+    "covered_claims": 5,
+    "uncovered_claims": 0,
+    "average_cost_per_claim": 675.0
+  }
+}
